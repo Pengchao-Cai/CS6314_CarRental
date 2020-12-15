@@ -1,0 +1,51 @@
+<% include partials/header %>
+<br><br><br>
+
+<div class="container">
+    <h1>Hello <%= user.username%>!</h1>
+    <h2>Please confirm your order:</h2>
+    <hr>
+    <p>Your total is: <strong>$<%= total%></strong>.</p>
+
+    <% items.forEach(function(item){ %>
+    <div class="card mb-3" style="width: 70%;">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <a href="/cars/<%= item.carObject._id %>">
+                    <img class="card-img" src="/images/<%= item.carObject.image %>"
+                        style="width:180px; height:180px;" />
+                </a>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <div id="carinfo" class="row align-items-center" style="font-size: 0.9rem">
+                        <div class="col-md-6">
+                            <p><strong>Name: </strong><%= item.carObject.name %></p>
+                            <p><strong>Type: </strong><%= item.carObject.type %></p>
+                        </div>
+                        <div class="col-md-6">
+                            <p><strong>Price: </strong>$<%= item.carObject.price %></p>
+                            <p><strong>Rental Days: </strong><%= item.carcount %></p>
+                        </div>
+                        <% if(!item.isEnough) { %>
+                        <div class="alert alert-danger" role="alert">
+                            <strong>The amount of the item is larger than our inventory.</strong>
+                        </div>
+                        <% } %>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <% }); %>
+    <form action="/<%= user._id%>/success" method="POST">
+        <input name="totalPrice" id="totalPrice" value="<%= total%>" type="hidden" />
+        <a href="/<%= user._id%>/cart" class="btn btn-primary">Back to cart</a>
+        <% if(canCheckout) { %>
+        <button type="submit" class="btn btn-success">Confirm</button>
+        <% } %>
+    </form>
+</div>
+
+<br><br><br>
+<% include partials/footer %>

@@ -1,0 +1,355 @@
+{
+    "_id" : ObjectId("5e9f71d84ccda1e2ec355735"),
+    "name" : "Honda CR-V EX",
+    "price" : 80,
+    "type" : "SUV",
+    "inventory" : 23,
+    "image" : "HondaCRVEX.jpg",
+    "description" : "Don't miss this great Honda! Both practical and stylish! A turbocharger further enhances performance, while also preserving fuel economy. Top features include power windows, variably intermittent wipers, lane departure warning, and more. It features an automatic transmission, front-wheel drive, and an efficient 4 cylinder engine. We know that you have high expectations, and we enjoy the challenge of meeting and exceeding them! Please don't hesitate to give us a call. This is just one of hundreds of New Honda's! Go to www.luterileyhonda.com to view our entire inventory. Happy New Year and may you and your family have a Great Year!",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f721b4ccda1e2ec355746"),
+    "name" : "Mazda CX-30 Select",
+    "price" : 60,
+    "type" : "SUV",
+    "inventory" : 44,
+    "image" : "MazdaCX30.jpg",
+    "description" : "This vehicle has passed the 160 point certification inspection by our Mazda certified mechanics. In order for the certification to be activated a fee of $599.00 will be applied. Town North Mazda sells and finances high quality low cost used cars in Dallas TX. Our used cars are inspected by ASE Certified Techs, fully detailed, & include a free CARFAX. We finance customers with Good, Fair, & Poor Credit. Town North Mazda offers a No-Hassle Buying Experience.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f72434ccda1e2ec35574f"),
+    "name" : "Volkswagen Atlas",
+    "price" : 100,
+    "type" : "SUV",
+    "inventory" : 33,
+    "image" : "VolkswagenAtlas.jpg",
+    "description" : "Volkswagen’s full-size Atlas SUV has perennially been one of our favorites and for 2021 it sees a mild refresh of the exterior styling, some new interior content, electronics and more powertrain choices for buyers.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f72844ccda1e2ec35575f"),
+    "name" : "Jaguar F-TYPE",
+    "price" : 120,
+    "type" : "Convertible",
+    "inventory" : 20,
+    "image" : "JaguarFTYPE.jpg",
+    "description" : "We took the 2021 Jaguar F-Type for a weeklong spin to see if it really is a suitable alternative to the comparatively ubiquitous Porsche 911. Jaguar’s updated 2021 F-Type R is even better-looking than before, and it delivers a winning mix of luxurious comfort, sports car performance and knockout style.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f72b54ccda1e2ec355770"),
+    "name" : "BMW M240",
+    "price" : 110,
+    "type" : "Convertible",
+    "inventory" : 45,
+    "image" : "BMWM240.jpg",
+    "description" : "The BMW 2 Series is the brand’s entry-level car. It’s available as a four-seat coupe or convertible and a five-seat, four-door Gran Coupe.The coupe and convertible come in 230i and M240i form. The 230i is powered by a 248-horsepower, turbocharged 2.0-liter four-cylinder engine, while the M240i gets a 335-hp, turbocharged 3.0-liter inline-six. Both versions are offered with rear- or all-wheel drive and an eight-speed automatic or six-speed manual transmission. ",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f73014ccda1e2ec35577d"),
+    "name" : "BMW Z4",
+    "price" : 130,
+    "type" : "Convertible",
+    "inventory" : 66,
+    "image" : "BMWZ4.jpg",
+    "description" : "The BMW Z4 is a two-seat soft-top sports car that comes with rear-wheel drive and a choice of two engines: a 255-horsepower, turbocharged 2.0-liter four-cylinder or a 382-hp, turbo 3.0-liter inline-six. Both engines work with an eight-speed automatic transmission. The current Z4 debuted as a 2019 model and is the result of a collaboration between BMW and Toyota; for its part, the Japanese automaker launched a new version of its famed Supra. Z4 competitors include the Mercedes-Benz SLC-Class and Audi TT. ",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f73244ccda1e2ec355788"),
+    "name" : "Mercedes-Benz E-Class",
+    "price" : 125,
+    "type" : "Convertible",
+    "inventory" : 23,
+    "image" : "MercedesBenzEClass.jpg",
+    "description" : "Mercedes-Benz’s mid-size luxury car is the E-Class. Globally, it’s one of the company’s most popular models, available in a number of different body styles — from the sedans you see here to a wagon, a coupe, a convertible, a high-performance model and even a new lifted off-road wagon in the vein of a Audi Allroad, Subaru Outback or Volvo V90 Cross Country. For 2021, the E-Class gets a few updates to keep it in line with the rest of the brand’s showroom. We took a refreshed E450 4Matic sedan and high-performance E63 S for a spin to see what the updates for the ‘21 model year have done to keep the E-Class fresh.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f734c4ccda1e2ec355794"),
+    "name" : "Audi S5",
+    "price" : 120,
+    "type" : "Convertible",
+    "inventory" : 21,
+    "image" : "AudiS5.jpg",
+    "description" : "The base A5 is powered by a 201-horsepower, turbocharged 2.0-liter four-cylinder engine that works with a seven-speed dual-clutch automatic transmission. One step higher is a 261-hp, turbocharged 2.0-liter four-cylinder that pairs with the same gearbox. At the top of the performance lineup is the S5, which comes with a 349-hp, turbocharged 3.0-liter V-6 engine and an eight-speed automatic transmission.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f73b94ccda1e2ec3557a6"),
+    "name" : "MINI Convertible",
+    "price" : 60,
+    "type" : "Convertible",
+    "inventory" : 12,
+    "image" : "MINIConvertible.jpg",
+    "description" : "The front-wheel-drive Mini Hardtop and Convertible are fun-to-drive small cars with a reputation for agility and parkability. The hatchback seats up to five, and the convertible has room for four. The base engine is a 134-horsepower, turbocharged 1.5-liter three-cylinder; a turbocharged 2.0-liter four-cylinder rated at 189 or 228 hp is available. A six-speed manual transmission is standard, and a seven-speed dual-clutch automatic or an eight-speed automatic are optional. Competitors include the Volkswagen Golf GTI and Hyundai Veloster. ",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f73d84ccda1e2ec3557b3"),
+    "name" : "Ford Mustang",
+    "price" : 75,
+    "type" : "Convertible",
+    "inventory" : 16,
+    "image" : "FordMustang.jpg",
+    "description" : "After a break of 17 years, the Ford Mustang Mach 1 is roaring back onto the muscle-car scene with a 480-horsepower, 5.0-liter V-8 under its hood, plus plenty of parts taken from the mighty Shelby GT350 and GT500 — carrying a just-announced price rolling up on $53,000 when it arrives at dealerships in the spring. Time has been kind to the Mach 1 because when it was last offered for the 2004 model year, it was powered by a 305-hp, 4.6-liter V-8. With exactly 175 more ponies than its predecessor, the 2021 Mustang Mach 1 is aimed directly at rivals like the Chevrolet Camaro SS and Dodge Challenger R/T.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f73f54ccda1e2ec3557bd"),
+    "name" : "Chevrolet Silverado 2500",
+    "price" : 55,
+    "type" : "Pickup Truck",
+    "inventory" : 31,
+    "image" : "ChevroletSilverado2500.jpg",
+    "description" : "The 2021 Chevrolet Silverado 2500HD and 3500HD are full-size heavy-duty pickup trucks that seat up to six and compete with models like the Ford F-250 and Ram 3500. Three cabs and two bed lengths are offered, and engine choices include a standard 401-horsepower, 6.6-liter V-8 or an available 445-hp, turbo-diesel 6.6-liter V-8 that makes 910 pounds-feet of torque. Rear- and four-wheel-drive versions are available. When properly equipped, the 3500HD’s maximum towing capacity is a staggering 36,000 pounds. ",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f74294ccda1e2ec3557c6"),
+    "name" : "RAM 3500",
+    "price" : 64,
+    "type" : "Pickup Truck",
+    "inventory" : 35,
+    "image" : "RAM3500.jpg",
+    "description" : "The Ram HD is a full-size pickup truck aimed at people with serious towing and hauling needs, as opposed to those who make the occasional weekend run to the home improvement store. It seats up to six and competes with the Ford Super Duty and Chevrolet Silverado HD. Available in 2500 and 3500 form, a 410-horsepower, 6.4-liter V-8 engine is standard, while a Cummins turbo-diesel 6.7-liter inline-six-cylinder is available. The diesel engine makes as much as 1,000 pounds-feet of torque in the 3500.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f74ae4ccda1e2ec3557e4"),
+    "name" : "Jeep Gladiator",
+    "price" : 65,
+    "type" : "Pickup Truck",
+    "inventory" : 33,
+    "image" : "JeepGladiator.jpg",
+    "description" : "The 2021 Jeep Gladiator is a mid-size crew-cab pickup truck with room for up to five people. Its standard engine is a 285-horsepower, 3.6-liter V-6 that works with a six-speed manual or eight-speed automatic transmission. The newly available turbo-diesel V-6, meanwhile, teams with an eight-speed automatic. Part-time four-wheel drive is standard, and competitors include the Ford Ranger, GMC Canyon and Toyota Tacoma.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f74ce4ccda1e2ec3557eb"),
+    "name" : "RAM 2500",
+    "price" : 60,
+    "type" : "Pickup Truck",
+    "inventory" : 11,
+    "image" : "RAM2500.jpg",
+    "description" : "The Ram HD is a full-size pickup truck aimed at people with serious towing and hauling needs, as opposed to those who make the occasional weekend run to the home improvement store. It seats up to six and competes with the Ford Super Duty and Chevrolet Silverado HD. Available in 2500 and 3500 form, a 410-horsepower, 6.4-liter V-8 engine is standard, while a Cummins turbo-diesel 6.7-liter inline-six-cylinder is available. The diesel engine makes as much as 1,000 pounds-feet of torque in the 3500.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f74eb4ccda1e2ec3557f5"),
+    "name" : "Dodge Challenger",
+    "price" : 50,
+    "type" : "Couple",
+    "inventory" : 43,
+    "image" : "DodgeChallenger.jpg",
+    "description" : "The Dodge Challenger is a two-door coupe that seats up to five people. It has a standard 303-horsepower, 3.6-liter V-6 engine that works with an eight-speed automatic transmission. Four V-8 engines are also available, including a 485-hp, 6.4-liter and a supercharged 6.2-literthat makes 717, 797 or 807 hp, depending on the model. A six-speed manual transmission is available on higher trims, and both rear- and all-wheel-drive versions are offered. Competitors include the Ford Mustang and Chevrolet Camaro. ",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f75634ccda1e2ec35580f"),
+    "name" : "BMW M2",
+    "price" : 85,
+    "type" : "Couple",
+    "inventory" : 47,
+    "image" : "BMWM2.jpg",
+    "description" : "The BMW M2 is a rear-wheel-drive, performance-oriented coupe that seats four. It’s powered by a 405-horsepower, turbocharged 3.0-liter inline-six-cylinder engine that works with a standard six-speed manual transmission or an optional seven-speed dual-clutch automatic. Competitors include the Porsche 718 Cayman, Audi RS 3 and Mercedes-AMG CLA 45. ",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f75804ccda1e2ec355816"),
+    "name" : "Chevrolet Camaro",
+    "price" : 55,
+    "type" : "Couple",
+    "inventory" : 44,
+    "image" : "ChevroletCamaro.jpg",
+    "description" : "The Camaro is Chevrolet’s answer to the Ford Mustang and Dodge Challenger: a rear-wheel-drive, four-seat coupe or convertible with several high-performance variants. Engine choices include a turbocharged 2.0-liter four-cylinder that makes 275 horsepower; a 335-hp, 3.6-liter V-6; a 455-hp, 6.2-liter V-8; and a 650-hp, supercharged 6.2-liter V-8. All engines come with a standard six-speed manual transmission. A 10-speed automatic is optional with V-6 and V-8 engines, while an eight-speed automatic is available with the four-cylinder.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f75a04ccda1e2ec355820"),
+    "name" : "Toyota Supra",
+    "price" : 77,
+    "type" : "Couple",
+    "inventory" : 22,
+    "image" : "ToyotaSupra.jpg",
+    "description" : "Only one year after being reintroduced to the world, the 2021 Toyota Supra has a lot of new stuff going on, including a new entry-level turbocharged four-cylinder version and a beefed-up, more powerful turbo six. Named the GR Supra 2.0, the 2.0-liter four-cylinder’s 255 horsepower looks pretty weak on paper. Just 255 hp? In a Supra? After all, a Toyota Camry family sedan’s V-6 has 301 hp, and the GR Supra 3.0 with a six-cylinder now has 382 hp. However, this is a classic case of how specs can be misleading.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f75ed4ccda1e2ec355830"),
+    "name" : "Honda Civic Si",
+    "price" : 40,
+    "type" : "Couple",
+    "inventory" : 47,
+    "image" : "HondaCivicSi.jpg",
+    "description" : "The Honda Civic is a front-drive compact car available in sedan, coupe and four-door hatchback body styles. It competes with the Hyundai Elantra, Nissan Sentra and Toyota Corolla. The sedan and coupe have a standard 158-horsepower, 2.0-liter four-cylinder engine or an available 174-hp, turbocharged 1.5-liter four-cylinder. The regular hatchback comes only with the 1.5-liter engine.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f762e4ccda1e2ec355841"),
+    "name" : "Nissan 370Z",
+    "price" : 60,
+    "type" : "Couple",
+    "inventory" : 21,
+    "image" : "Nissan370Z.jpg",
+    "description" : "The rear-wheel-drive Nissan 370Z is a two-seat sports coupe. It’s powered by a standard 332-horsepower, 3.7-liter V-6 engine that works with a six-speed manual transmission or a seven-speed automatic. A high-output NISMO coupe with a 350-hp, 3.7-liter V-6 is also offered. Competitors include the Ford Mustang and Chevrolet Camaro.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f76574ccda1e2ec35584d"),
+    "name" : "Toyota 86",
+    "price" : 47,
+    "type" : "Couple",
+    "inventory" : 20,
+    "image" : "Toyota86.jpg",
+    "description" : "The Toyota 86 (previously known as the Scion FR-S before Toyota discontinued the Scion brand) is a fun-to-drive four-seat sports coupe. It has rear-wheel drive, and power comes from a 205-horsepower, 2.0-liter horizontally opposed four-cylinder engine. The four-cylinder teams with a standard six-speed manual transmission or an available six-speed automatic (engine output drops to 200 hp with the automatic). Competitors include other small sports cars like the related Subaru BRZ, Mazda MX-5 Miata and Hyundai Veloster.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f766e4ccda1e2ec355852"),
+    "name" : "Dodge Charger",
+    "price" : 55,
+    "type" : "Sedan",
+    "inventory" : 26,
+    "image" : "DodgeCharger.jpg",
+    "description" : "The Dodge Charger is a full-size sedan that can seat up to five people. It runs on a standard 292-horsepower, 3.6-liter V-6 engine that works with an eight-speed automatic transmission. A 370-hp, 5.7-liter V-8; a 485-hp, 6.4-liter V-8 and a 707-hp, supercharged 6.2-liter V-8 are also available. Rear- and all-wheel-drive versions are offered. Competitors include the Nissan Maxima and Chevrolet Impala.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f76944ccda1e2ec35585e"),
+    "name" : "Toyota Camry",
+    "price" : 38,
+    "type" : "Sedan",
+    "inventory" : 55,
+    "image" : "ToyotaCamry.jpg",
+    "description" : "The five-seat Toyota Camry is a bestselling mid-size sedan with a standard 203-horsepower, 2.5-liter four-cylinder engine and an available 301-hp, 3.5-liter V-6. Both engines work with an eight-speed automatic transmission. A hybrid model that gets up to 52 mpg combined is also available. Competitors include the Honda Accord, Mazda6 and Nissan Altima. ",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f76b44ccda1e2ec355865"),
+    "name" : "Honda Accord",
+    "price" : 50,
+    "type" : "Sedan",
+    "inventory" : 54,
+    "image" : "HondaAccord.jpg",
+    "description" : "The Accord is Honda’s five-seat mid-size family sedan. Now in its 10th generation, the front-wheel-drive Accord comes with a standard 192-horsepower, turbocharged 1.5-liter four-cylinder engine or an available 252-hp, turbocharged 2.0-liter four-cylinder. A six-speed manual transmission is available for both engines. The 1.5-liter engine can also work with a continuously variable automatic transmission while the 2.0-liter engine can pair with a 10-speed automatic. There’s also an efficient Accord Hybrid with a two-motor hybrid powertrain that incorporates a 2.0-liter four-cylinder and gets an EPA-estimated 48 mpg combined. Competitors include the Toyota Camry, Nissan Altima and Chevrolet Malibu.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f76e24ccda1e2ec355870"),
+    "name" : "Hyundai Sonata",
+    "price" : 53,
+    "type" : "Sedan",
+    "inventory" : 48,
+    "image" : "HyundaiSonata.jpg",
+    "description" : "When certain types of products become less popular, the manufacturers that don’t abandon them altogether sometimes starve them of resources and hasten their decline by focusing on more popular product types. Apply this reality to today’s automotive market, and the less popular style is the mid-size sedan, where manufacturers who have abandoned them or are in the process are Chrysler, Dodge and Ford, and there will be more. As for the sedan models being starved of resources, I’m not naming any models yet, but we have our eyes on a few, and it’s inevitable.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f77074ccda1e2ec35587a"),
+    "name" : "Porsche Taycan",
+    "price" : 140,
+    "type" : "Sedan",
+    "inventory" : 34,
+    "image" : "PorscheTaycan.jpg",
+    "description" : "A sports sedan. There’s very little that calls out its electric powertrain and a lot that signifies its Porsche pedigree.93 kilowatt-hour battery pack powers dual motors good for around 616-670 horsepower, depending on model.After months of dribbling out information about its first-ever all-electric vehicle, Porsche opened the faucet today on the 2020 Taycan. The four-door electric sports car comes in Taycan Turbo S and Taycan Turbo models — yet both will employ something quite different than a turbo engine: a 600-plus horsepower dual-electric motor setup.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f77304ccda1e2ec355883"),
+    "name" : "Kia Forte",
+    "price" : 40,
+    "type" : "Sedan",
+    "inventory" : 16,
+    "image" : "KiaForte.jpg",
+    "description" : "Redesigned last year, the five-seat Forte compact sedan competes with models like the Honda Civic, Hyundai Elantra and Toyota Corolla. Most trim levels are powered by a 147-horsepower, 2.0-liter four-cylinder engine that works with a six-speed manual or continuously variable automatic transmission. A new 201-hp, turbocharged 1.6-liter four-cylinder powers the GT trim level, teaming with a seven-speed dual-clutch automatic transmission or the manual. ",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f77514ccda1e2ec355892"),
+    "name" : "Kia Optima",
+    "price" : 51,
+    "type" : "Sedan",
+    "inventory" : 57,
+    "image" : "KiaOptima.jpg",
+    "description" : "The five-seat Hyundai Elantra compact sedan is stylish and well-equipped in a class with plenty of competition. Already long on value, the Elantra gets more standard safety features for 2020, along with improved fuel economy and added convenience features.The front-wheel-drive sedan’s base engine is a 147-horsepower, 2.0-liter four-cylinder that works with a new continuously variable automatic transmission. The efficiency-oriented Eco trim level has a 128-hp, turbocharged 1.4-liter four-cylinder paired with a seven-speed dual-clutch automatic.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f776e4ccda1e2ec355898"),
+    "name" : "Hyundai Elantra",
+    "price" : 48,
+    "type" : "Sedan",
+    "inventory" : 31,
+    "image" : "HyundaiElantra.jpg",
+    "description" : "The five-seat Hyundai Elantra compact sedan is stylish and well-equipped in a class with plenty of competition. Already long on value, the Elantra gets more standard safety features for 2020, along with improved fuel economy and added convenience features.The front-wheel-drive sedan’s base engine is a 147-horsepower, 2.0-liter four-cylinder that works with a new continuously variable automatic transmission. The efficiency-oriented Eco trim level has a 128-hp, turbocharged 1.4-liter four-cylinder paired with a seven-speed dual-clutch automatic. ",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f778e4ccda1e2ec3558a3"),
+    "name" : "Chrysler Pacifica",
+    "price" : 66,
+    "type" : "Van",
+    "inventory" : 36,
+    "image" : "ChryslerPacifica.jpg",
+    "description" : "The front-wheel-drive Chrysler Pacifica is a minivan that seats seven or eight, depending on its interior configuration. It is offered in both regular gas and plug-in hybrid forms. The Pacifica comes standard with a 287-horsepower, 3.6-liter V-6 engine that works with a nine-speed automatic transmission. The plug-in hybrid version delivers an EPA-estimated electric range of up to 32 miles from a 16-kilowatt-hour lithium-ion battery pack, with a total gas and electric range of 520 miles. Competitors include the Kia Sedona, Toyota Sienna and Honda Odyssey.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f77af4ccda1e2ec3558a9"),
+    "name" : "Toyota Sienna",
+    "price" : 70,
+    "type" : "Van",
+    "inventory" : 64,
+    "image" : "ToyotaSienna.jpg",
+    "description" : "The Toyota Sienna minivan offers seating for up to eight in three rows and competes with the Honda Odyssey, Chrysler Pacifica and Kia Sedona. It’s the only new minivan that offers all-wheel drive — at least for now. The Sienna is powered by a 296-horsepower, 3.5-liter V-6 engine that works with an eight-speed automatic transmission.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f77af4ccda1e2ec3558a7"),
+    "name" : "Honda Odyssey",
+    "price" : 44,
+    "type" : "Van",
+    "inventory" : 21,
+    "image" : "HondaOdyssey.jpg",
+    "description" : "The front-wheel-drive Honda Odyssey minivan can seat seven or eight, depending on the trim level. It has a 280-horsepower, 3.5-liter V-6 engine that works with a 10-speed automatic transmission. Competitors include the Toyota Sienna, Kia Sedona and Chrysler Pacifica.Bluetooth and USB connectivity let you pair your devices when you’re on the go, while the easy-folding third-row seat allows you to quickly switch from passenger- to cargo-carrying duty.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f77af4ccda1e2ec3558b3"),
+    "name" : "Kia Sedona",
+    "price" : 55,
+    "type" : "Van",
+    "inventory" : 11,
+    "image" : "KiaSedona.jpg",
+    "description" : "The front-wheel-drive 2020 Kia Sedona minivan seats seven or eight, depending on the trim level. It’s powered by a 276-horsepower, 3.3-liter V-6 engine that works with an eight-speed automatic transmission. Competitors include the Chrysler Pacifica, Toyota Sienna and Honda Odyssey.The Sedona’s family friendly interior and easy-to-reach Latch anchors help make it a good choice for families with young children. The standard touchscreen multimedia system includes Apple CarPlay and Android Auto smartphone connectivity, and a rear-seat entertainment system is available.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f77af4ccda1e2ec3558b4"),
+    "name" : "Ford Transit Connect",
+    "price" : 51,
+    "type" : "Van",
+    "inventory" : 15,
+    "image" : "FordTransitConnect.jpg",
+    "description" : "Offered in cargo- and passenger-carrying forms, the Transit Connect is Ford’s compact van. The long-wheelbase passenger version has three rows and room for up to seven people. The Transit Connect has minivan-style sliding doors and is powered by a gas four-cylinder engine that works with an eight-speed automatic transmission. Competitors include the Ram ProMaster City.",
+    "isDeleted" : false
+}
+{
+    "_id" : ObjectId("5e9f77af4ccda1e2ec3558b5"),
+    "name" : "Chrysler Voyager",
+    "price" : 45,
+    "type" : "Van",
+    "inventory" : 18,
+    "image" : "ChryslerVoyager.jpg",
+    "description" : "Fiat Chrysler Automobiles is bringing back a name from its past (or overseas, if you happen to live outside the U.S.) to adorn a new version of its Pacifica minivan. The popular and multiple-award-winning Pacifica will see its lower trim levels split off onto a new nameplate — the 2020 Chrysler Voyager — while the most premium levels continue on under the Pacifica badge.",
+    "isDeleted" : false
+}
+
+
+
+
+

@@ -1,0 +1,51 @@
+<% include partials/header %>
+<br>
+<br>
+<br>
+<br>
+
+<div class="container">
+	<h1> Edit car </h1>
+
+
+	<form action="/cars/<%= cars._id %>?_method=PUT" method="POST" enctype="multipart/form-data">
+
+		<div class="form-group">
+			<input type="text" name="name" class="form-control" value="<%=cars.name%>" placeholder="Name ">
+		</div>
+		<div class="form-group">
+			<input type="text" name="type" class="form-control" value="<%=cars.type%>" placeholder="Type ">
+		</div>
+		<div class="form-group">
+			<input type="text" name="price" class="form-control" value="<%=cars.price%>" placeholder="Price ">
+		</div>
+		<div class="custom-file mb-3">
+			<input type="file" id="file" name="file" class="custom-file-input">
+			<label class="custom-file-label" for="file"><%=cars.image%></label>
+		</div>
+		<div class="form-group">
+			<input type="text" name="inventory" class="form-control" value="<%=cars.inventory%>" placeholder="Inventory (e.g., &quot;20&quot;)">
+		</div>
+		 <div class="form-group">
+			<textarea name="description" class="form-control"  placeholder = "Description"><%=cars.description%></textarea>
+		</div>
+		<div class="form-group">
+			<button type="submit" class="btn btn-info" >Save</button>
+		</div>
+
+
+	</form>
+
+	<a href="/cars">Cancel</a>
+
+</div>
+
+<script>
+	// Add the following code if you want the name of the file appear on select
+	$(".custom-file-input").on("change", function () {
+		var fileName = $(this).val().split("\\").pop();
+		$(this).siblings(".custom-file-label").addClass("selected").html(fileName);
+	});
+</script>
+
+<% include partials/footer %>

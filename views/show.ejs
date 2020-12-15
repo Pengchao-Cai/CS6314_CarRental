@@ -1,0 +1,73 @@
+<% include partials/header %>
+
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+	<div style="text-align: center">
+		<h1> Car Details </h1>
+		<img src="/images/<%= cars.image %>" />
+		<br>
+		<p>Name: <%= cars.name %></p>
+		<p>Price: $<%= cars.price %>/day</p>
+		<p>Type: <%= cars.type %></p>
+		<p>Inventory: <%= cars.inventory %></p>
+		<p>Decription: <%= cars.description %></p>
+
+		<% if(user && user.isAdmin) { %>
+		<div class="forAdmin">
+			<div class="toEditcar">
+				<form style="display: inline" action="/cars/<%= cars._id %>/edit" method="GET">
+					<button type="submit" class="btn btn-warning">Edit cars</button>
+				</form>
+			</div>
+			<br>
+			<% if(!cars.isDeleted) { %>
+			<div class="toDeletecar">
+				<form style="display: inline" action="/cars/<%= cars._id %>/delete" method="POST">
+					<button type="submit" class="btn btn-danger">Delete cars</button>
+				</form>
+			</div>
+			<% } %>
+			<% if(cars.isDeleted) { %>
+			<div class="toRecovercar">
+				<form style="display: inline" action="/cars/<%= cars._id %>/recover" method="POST">
+					<button type="submit" class="btn btn-info">Recover cars</button>
+				</form>
+			</div>
+			<% } %>
+		</div>
+		<% } %>
+
+		<% if(user && !user.isAdmin){%>
+		<div class="forcustomer">
+			<div class="toLikeAnItem">
+				<form style="display: inline" action="/<%= user._id %>/wishlist" method="POST">
+					<input name="like" id="like" value="<%= cars._id %>" type="hidden" /><br>
+					<button type="submit" class="btn btn-outline-info">Add to Wishlist</button>
+				</form>
+			</div>
+			<div class="toBuyAnItem">
+				<form style="display: inline" action="/<%= user._id %>/cart" method="POST">
+					<input name="buy" id="buy" value="<%= cars._id %>" type="hidden" /><br>
+                    <label>How many days?</label>
+					<input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+					<button type="submit" class="btn btn-outline-primary">Add to Cart</button>
+				</form>
+			</div>
+		</div>
+		<%}%>
+
+		<br>
+		<p>
+			<a href="/cars">Back to List</a>
+		</p>
+	</div>
+
+
+
+</div>
+<br>
+<br>
+<% include partials/footer %>

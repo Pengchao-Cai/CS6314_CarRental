@@ -1,0 +1,79 @@
+<% include partials/header %>
+
+<div style="width: 80%; margin: 0 auto;">
+
+<div class="jumbotron" >
+	<br>
+	<h2 class="display-4" sytle="margin-top: 20">Fancy CarRentals</h2>
+	<p class="lead">You can rent your cars at 24/7!</p>
+	<hr class="my-4">
+
+	<% if(user && user.isAdmin) { %>
+	<a class="btn btn-info btn-lg" href="cars/new" role="button">Post a new car</a>
+	<% } %>
+	<p> </p>
+
+
+	<br>
+	<form action="/cars" method="GET" class="form-inline" id="cars-search">
+		<div class="form-group">
+			<input type="text" name="search" placeholder="Search your car!" class="form-control">
+			<select name="type" id="setected_type" style="height:36px;" class="form-control">
+				<option value="all">All</option>
+				<option value="SUV">Suv</option>
+				<option value="Van">Van</option>
+				<option value="Sedan">Sedan</option>
+				<option value="Convertible">Convertible</option>
+				<option value="Pickup Truck">Pickup Truck</option>
+				<option value="Couple">Couple</option>
+			</select>
+		</div>
+		<button style = "margin-left: 10px;"class="btn btn-success" type="Submit">Search!</button>
+		
+	</form>
+</div>
+</div>
+<div class="container-fluid" style="margin-left: 2%">
+	<div class="row justify-content-center" id="cars-grid">
+		<% cars.forEach( car => { %>
+		<div class="col-xl-3" style="margin-left: 0%">
+			<a href="/cars/<%= car._id %>">
+				<img src="../images/<%= car.image %>" style="width:400px; height:300px;" />
+			</a>
+
+			<div class="caption" style="text-align: center; font-size: 1.2rem">
+	        <a href="/cars/<%= car._id %>"><button class="btn btn-info"><%= car.name %><span style = "padding-left: 5px; color: black;">Price: $<%= car.price %>/day</span></button></a>
+			
+				
+			</div>
+		</div>
+		<% }); %>
+	</div>
+</div>
+
+<br>
+<br>
+
+<div class="container" id="paging" style="text-align: center; margin: auto">
+	<% if (currentPage ==1 && numOfPages>1) {%>
+	<%= parseInt(currentPage)  %>
+	<a href="/cars?page=<%= parseInt(currentPage) + 1 %>"><i class="fas fa-chevron-right"></i></a>
+
+	<%} else if(currentPage < numOfPages) { %>
+	<a href="/cars?page=<%= parseInt(currentPage) - 1 %>"><i class="fas fa-chevron-left"></i></a>
+	<%= parseInt(currentPage)  %>
+	<a href="/cars?page=<%= parseInt(currentPage) + 1 %>"><i class="fas fa-chevron-right"></i></a>
+
+	<%} else if(currentPage == numOfPages && numOfPages > 1) { %>
+	<a href="/cars?page=<%= parseInt(currentPage) - 1 %>"><i class="fas fa-chevron-left"></i></a>
+	<%= parseInt(currentPage)  %>
+	<% } %>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<% include partials/footer %>

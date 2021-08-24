@@ -19,7 +19,8 @@ Express.js: the server-side framework for building web applications, similar to
 ASP.NET MVC or Rails.
 Node.js: the JavaScript runtime environment
 Bootstrap and JQuery
-Database Design
+
+## Database Design
 We use MongoDB to Create database and table:
 We use port ‘27017’ to connect the database. In the beginning, we create a database 
 named ‘car’ and one collection named ‘cars’. We insert all information about cars in 
@@ -31,6 +32,7 @@ and isDeleted.
 If you want to see the detailed data, you can find them in ‘cars.json’ file in our project 
 folder.
 The data format is as below:
+```
 {
  "_id" : ObjectId(""),
  "name" : "",
@@ -41,6 +43,7 @@ The data format is as below:
  "description" : "",
  "isDeleted" : 
 }
+```
 For the accounts table, the data format is as below:
 {
  "_id" : ObjectId(""),

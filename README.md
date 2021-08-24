@@ -1,5 +1,5 @@
 # CS6314_CarRental
-Description
+## Description   
 Our project is a car rental application. This web application allows customers to rent car 
 online. There are various kind of cars for customer to choose. Different types: Couple, 
 Van, SUV, Convertible, Pickup Truck, Sedan. Different brands: BMW, Ford, MINI, 
@@ -10,8 +10,9 @@ order, first, you need register a account and log in. Then you are able to use �
 and ‘shopping cart’ function. You can also edit information or delete orders in your cart 
 and wishlist. Once an order is made, the price will be calculated and the customer can 
 review the order history in the profile. The administrator can use ‘admin’ account to log 
-in and is able to add, edit, remove, and recover all information about cars.
-Frameworks & Tools
+in and is able to add, edit, remove, and recover all information about cars.   
+
+## Frameworks & Tools
 Sublime Text: the text editor for code, markup and prose
 MongoDB: the database engine we use to store the data.
 Express.js: the server-side framework for building web applications, similar to 

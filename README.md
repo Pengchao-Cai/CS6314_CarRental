@@ -45,13 +45,16 @@ The data format is as below:
 }
 ```
 For the accounts table, the data format is as below:
+```
 {
  "_id" : ObjectId(""),
  " isAdmin" : boolean,
  " username" : “”,
  " salt" : ,
  " hash" :, }
+ ```
 For the cart table, the data format is as below:
+```
 {
  "carObject" : {},
  "carid" : ObjectId(""),
@@ -60,7 +63,9 @@ For the cart table, the data format is as below:
  "userid" : ObjectId(""),
  "username" : "",
  "isEnough" : boolean} }
+ ```
 For the order table, the data format is as below:
+```
 {
  "_id" : ObjectId("5fcc3c6c77f39b37c52542f4"),
  "cars" : [ 
@@ -77,6 +82,7 @@ For the order table, the data format is as below:
  "ordertime" : "",
  "totalPrice" : ""
 }
+```
 For the wishlist table, the data format is as below:
 {
  "_id" : ObjectId(""),
@@ -86,11 +92,14 @@ For the wishlist table, the data format is as below:
  "userid" : ObjectId(""),
  "username" : ""
 }
-Run our application:
+```
+## Run our application:
 Use these commands:
+```
 $ cd CarRental
 $ npm install
 $ nodemon
+```
 After typing these commands in the terminal, you will be able to use our application at
 localhost:3000.
 Register a customer account and Login

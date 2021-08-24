@@ -84,6 +84,7 @@ For the order table, the data format is as below:
 }
 ```
 For the wishlist table, the data format is as below:
+```
 {
  "_id" : ObjectId(""),
  "carObject" : {},
@@ -93,7 +94,7 @@ For the wishlist table, the data format is as below:
  "username" : ""
 }
 ```
-## Run our application:
+## Run our application
 Use these commands:
 ```
 $ cd CarRental
@@ -101,13 +102,13 @@ $ npm install
 $ nodemon
 ```
 After typing these commands in the terminal, you will be able to use our application at
-localhost:3000.
-Register a customer account and Login
+localhost:3000.    
+## Register a customer account and Login
 To use wishlist and shopping cart function, you need to register a new account. Then 
 use this account to login. Otherwise, you cannot make a order. After logging in, you 
 can see your profile, wishlist and shopping cart at upper-right corner. On shopping 
-cart page, you can make an order.
-Register an administrator account and Login
+cart page, you can make an order.   
+
 To login as an administrator account, you need to register a account. The username of 
 this account must be ‘admin’. About the password, you can enter whatever you want. 
 After logging in as an administrator account, you are able to add, edit, remove, and 
